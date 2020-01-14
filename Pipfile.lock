@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "6b117dff431adbb1ccf7ee69bda8f58327ae4b00adf33a0bb04168c8fedc38d6"
+            "sha256": "7215a1bdf7c93ae4913791d9c3bca055ceb5ed8c5f203e42cbcfc66a107b5683"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,14 @@
         ]
     },
     "default": {
+        "pygeoif": {
+            "hashes": [
+                "sha256:11aa0c071d38befa4af3bd123efa834abe0823a873f3744f0a070a44025afe04",
+                "sha256:e7a63bbc4c552466dcd6fa1273bd4cc12539dfe23f0d7154cf76beadf6bdec1c"
+            ],
+            "index": "pypi",
+            "version": "==0.7"
+        },
         "pyshp": {
             "hashes": [
                 "sha256:e65c7f24d372b97d0920b864bbeb78322bb37b83f2606e2a2212631d5d51e5c0"

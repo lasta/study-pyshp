@@ -8,6 +8,7 @@ flake8 = "*"
 
 [packages]
 pyshp = "*"
+pygeoif = "*"
 
 [requires]
 python_version = "3.7"
