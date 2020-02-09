@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+set -uo pipefail
+
+readonly CURRENT="$(cd "$(dirname "$0")" && pwd)"
+
+function install() {
+  pipenv sync --bare
+  return $?
+}
+
+function run() {
+  pipenv run invoke --search-root "${CURRENT}" $@
+  return $?
+}
+
+function main() {
+  install || return $?
+  run $@ || return $?
+}
+
+main
